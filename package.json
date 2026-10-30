@@ -1,6 +1,6 @@
 {
   "name": "@deepwhale-cn/dsh-qq-bridge",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "深鲸 QQ 桥接：把 QQ 接进 DSH —— QQ 官方机器人 WebSocket（AppID/AppSecret）或 OneBot v11 二选一；侧栏收发、入站入队、全量审计；v0.3 自动回复（关键词规则 + 模板 + 防刷，默认关）",
   "type": "module",
   "license": "MIT",
