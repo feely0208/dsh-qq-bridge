@@ -1,0 +1,8 @@
+# dsh-qq-bridge bundle patch.
+#
+# 插入一行：本包自身（真正的 cordis 插件，lib/index.js）。加载后挂
+# /dsh-qq-bridge 出口、注册 qq_send / qq_inbox 工具与侧栏「QQ 桥接」面板。
+
+- insert:
+    - id: qq-bridge
+      name: '@deepwhale-cn/dsh-qq-bridge'
